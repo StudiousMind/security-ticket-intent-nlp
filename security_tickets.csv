@@ -1,0 +1,181 @@
+text,label
+"Please reset my password, I forgot it again.",Password_Reset
+"I can’t log into my account, need a password reset.",Password_Reset
+"Password expired, need help updating it.",Password_Reset
+"Reset request — old password isn’t working.",Password_Reset
+"I’m locked out; can someone reset my password?",Password_Reset
+"Forgot password, please send reset link.",Password_Reset
+"Trying to reset password but getting an error.",Password_Reset
+"Need a new password ASAP.",Password_Reset
+"Password reset link doesn’t work.",Password_Reset
+"Reset requested — cannot authenticate.",Password_Reset
+"Can’t remember my password, please assist.",Password_Reset
+"Password reset needed for my laptop login.",Password_Reset
+"Reset my Office 365 password please.",Password_Reset
+"Password expired unexpectedly.",Password_Reset
+"Locked out, need password reset urgently.",Password_Reset
+"Stuck at verification during password reset.",Password_Reset
+"Need temporary password for login.",Password_Reset
+"Forgot my laptop login password.",Password_Reset
+"Password reset didn’t apply after I changed it.",Password_Reset
+"Password isn’t accepted after update.",Password_Reset
+"Reset link is expired, need a new one.",Password_Reset
+"Unable to reset password due to security questions.",Password_Reset
+"Need help resetting VPN password.",Password_Reset
+"Account unlocked but password still invalid.",Password_Reset
+"Password reset failed — please assist.",Password_Reset
+"Cannot log in after resetting password.",Password_Reset
+"Password reset page keeps crashing.",Password_Reset
+"Need help changing my password before expiration.",Password_Reset
+"Password reset required for remote login.",Password_Reset
+"Reset my password — urgent access needed.",Password_Reset
+"My account is locked after too many attempts.",Account_Lockout
+"Access denied — account locked.",Account_Lockout
+"Locked out of my AD account.",Account_Lockout
+"System says my account is disabled.",Account_Lockout
+"Please unlock my account.",Account_Lockout
+"Login blocked — too many tries.",Account_Lockout
+"Can’t access my account — locked.",Account_Lockout
+"Account disabled, not sure why.",Account_Lockout
+"Account suspended, need reactivation.",Account_Lockout
+"Locked out after vacation.",Account_Lockout
+"My account keeps locking overnight.",Account_Lockout
+"Repeated lockouts — please check.",Account_Lockout
+"Account locked after MFA failure.",Account_Lockout
+"Locked out after password change.",Account_Lockout
+"Account keeps disabling itself.",Account_Lockout
+"AD account locked after updates.",Account_Lockout
+"System flagged my account and locked it.",Account_Lockout
+"Colleague says my account appears disabled.",Account_Lockout
+"Locked out from all systems.",Account_Lockout
+"Need help unlocking my account urgently.",Account_Lockout
+"Password works, but account is locked.",Account_Lockout
+"Error: ‘Account disabled by administrator.’",Account_Lockout
+"Locked out due to failed login attempts.",Account_Lockout
+"My account locks every morning.",Account_Lockout
+"Unable to access mailbox due to lockout.",Account_Lockout
+"Account randomly locked again.",Account_Lockout
+"Locked out after too many VPN attempts.",Account_Lockout
+"Account keeps locking even after reset.",Account_Lockout
+"Account disabled for unknown reason.",Account_Lockout
+"Login error showing account lockout.",Account_Lockout
+"VPN keeps disconnecting every few minutes.",VPN_Issue
+"Unable to connect to VPN from home.",VPN_Issue
+"VPN authentication failed.",VPN_Issue
+"VPN stuck on ‘connecting.’",VPN_Issue
+"VPN extremely slow today.",VPN_Issue
+"VPN not launching after update.",VPN_Issue
+"Timeout during VPN login.",VPN_Issue
+"VPN works on phone but not laptop.",VPN_Issue
+"Can’t access internal systems via VPN.",VPN_Issue
+"VPN certificate expired.",VPN_Issue
+"VPN disconnects when switching WiFi.",VPN_Issue
+"Unable to authenticate to GlobalProtect.",VPN_Issue
+"Invalid credentials error on VPN.",VPN_Issue
+"VPN blocked after multiple attempts.",VPN_Issue
+"GlobalProtect stuck on ‘connecting.’",VPN_Issue
+"VPN traffic not routing properly.",VPN_Issue
+"VPN works but internal apps don’t load.",VPN_Issue
+"VPN crashes when I connect.",VPN_Issue
+"VPN logs me out every hour.",VPN_Issue
+"Split tunneling not working.",VPN_Issue
+"Unable to connect to secure gateway.",VPN_Issue
+"VPN says ‘Connection Reset.’",VPN_Issue
+"VPN connected but internet drops.",VPN_Issue
+"Unable to download VPN config.",VPN_Issue
+"VPN fails after OS update.",VPN_Issue
+"VPN disconnects during Teams calls.",VPN_Issue
+"Receiving VPN error code 722.",VPN_Issue
+"VPN connects but RDP doesn’t work.",VPN_Issue
+"VPN authentication looping.",VPN_Issue
+"VPN stuck on verifying identity.",VPN_Issue
+"Login alert from Russia.",Suspicious_Activity
+"Unrecognized device signed in.",Suspicious_Activity
+"Got phishing email asking for gift cards.",Suspicious_Activity
+"Account activity I didn’t do.",Suspicious_Activity
+"MFA prompts I didn’t request.",Suspicious_Activity
+"Email sent from my account without me.",Suspicious_Activity
+"Unknown login at 3 AM.",Suspicious_Activity
+"Clicked a suspicious link.",Suspicious_Activity
+"Weird activity on Teams.",Suspicious_Activity
+"Possible compromise — check account.",Suspicious_Activity
+"Suspicious pop-up on workstation.",Suspicious_Activity
+"Multiple failed login attempts noticed.",Suspicious_Activity
+"Malicious link opened by mistake.",Suspicious_Activity
+"Spam being sent from my mailbox.",Suspicious_Activity
+"Device added to my Microsoft account.",Suspicious_Activity
+"Got malware warning.",Suspicious_Activity
+"Strange redirect when browsing.",Suspicious_Activity
+"VPN login I didn’t recognize.",Suspicious_Activity
+"Colleague received strange email from me.",Suspicious_Activity
+"Received phishing email pretending to be HR.",Suspicious_Activity
+"Laptop behaving strangely today.",Suspicious_Activity
+"Unknown background process running.",Suspicious_Activity
+"Unknown device connected to network.",Suspicious_Activity
+"Brief ransomware-style pop-up appeared.",Suspicious_Activity
+"Browser keeps redirecting to unknown sites.",Suspicious_Activity
+"Antivirus detected suspicious activity.",Suspicious_Activity
+"Received invoice scam email.",Suspicious_Activity
+"Unknown USB device detected.",Suspicious_Activity
+"System rebooted on its own.",Suspicious_Activity
+"Email says my password found in a breach.",Suspicious_Activity
+"Not receiving MFA codes.",MFA_Problem
+"Authenticator app not generating codes.",MFA_Problem
+"MFA keeps failing on login.",MFA_Problem
+"Lost my phone — need MFA reset.",MFA_Problem
+"MFA prompt not appearing.",MFA_Problem
+"SMS codes delayed every time.",MFA_Problem
+"MFA stuck at verification stage.",MFA_Problem
+"Authenticator showing wrong code.",MFA_Problem
+"Need MFA transferred to new phone.",MFA_Problem
+"MFA not synced after password reset.",MFA_Problem
+"Push notifications not appearing.",MFA_Problem
+"MFA works on laptop but not mobile.",MFA_Problem
+"Need temporary MFA bypass.",MFA_Problem
+"MFA timing out instantly.",MFA_Problem
+"MFA blocked after failed attempts.",MFA_Problem
+"Authenticator app keeps crashing.",MFA_Problem
+"Cannot scan QR code for MFA setup.",MFA_Problem
+"MFA won't pair with new device.",MFA_Problem
+"Authenticator codes rejected.",MFA_Problem
+"MFA not linking to my account.",MFA_Problem
+"New phone, MFA still tied to old one.",MFA_Problem
+"MFA toggle disabled in settings.",MFA_Problem
+"Push notifications going to old phone.",MFA_Problem
+"MFA required but app missing.",MFA_Problem
+"MFA loops back to login page.",MFA_Problem
+"Need MFA reset due to broken device.",MFA_Problem
+"MFA shows ‘invalid token.’",MFA_Problem
+"Authenticator disabled itself.",MFA_Problem
+"Cannot complete MFA enrollment.",MFA_Problem
+"MFA approval not reaching my device.",MFA_Problem
+"WiFi disconnects randomly.",Network_Issue
+"No internet on office workstation.",Network_Issue
+"Network extremely slow.",Network_Issue
+"Cannot access shared drives.",Network_Issue
+"LAN cable not detecting.",Network_Issue
+"Network outage in building.",Network_Issue
+"Dead LAN port.",Network_Issue
+"Ping spikes constantly.",Network_Issue
+"Losing connection during calls.",Network_Issue
+"Firewall blocking internal site.",Network_Issue
+"No access to corporate network.",Network_Issue
+"Switch port disabled.",Network_Issue
+"WiFi password not working.",Network_Issue
+"Network drops when moving between rooms.",Network_Issue
+"Cannot reach internal DNS.",Network_Issue
+"Printer not reachable on network.",Network_Issue
+"Intermittent connection issues.",Network_Issue
+"High packet loss today.",Network_Issue
+"VPN works but LAN doesn’t.",Network_Issue
+"Router not assigning IP address.",Network_Issue
+"WiFi unstable during peak hours.",Network_Issue
+"Intranet site unreachable.",Network_Issue
+"Ethernet disconnects randomly.",Network_Issue
+"Proxy blocking access.",Network_Issue
+"Network lagging heavily.",Network_Issue
+"Laptop loses network after sleep.",Network_Issue
+"IP conflict detected.",Network_Issue
+"Network authentication failing.",Network_Issue
+"WiFi keeps auto-disconnecting.",Network_Issue
+"LAN connection dropping every hour.",Network_Issue
