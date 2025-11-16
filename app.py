@@ -56,7 +56,7 @@ with st.sidebar:
     )
 
     st.write("---")
-    st.write("Built by **Kai (StudiousMind)** for an NLP course project.")
+    st.write("Built by **Kai Balhareth** for the  NLP course project.")
 
 # ---------- Streamlit UI ----------
 
