@@ -32,6 +32,31 @@ def load_artifacts():
 
 model, tfidf, label_encoder = load_artifacts()
 
+# ---------- Sidebar ----------
+
+with st.sidebar:
+    st.title("About this app")
+    st.write("🔐 **Security Ticket Intent Classifier**")
+    st.write("Classifies IT security tickets into categories using TF-IDF + Logistic Regression.")
+
+    st.subheader("Model & data")
+    st.write("- Model: Logistic Regression")
+    st.write("- Vectorizer: TF-IDF")
+    st.write("- Tickets: 180 synthetic samples")
+    st.write("- Classes:")
+    for cls in label_encoder.classes_:
+        st.write(f"  • {cls}")
+
+    st.subheader("Project links")
+    st.markdown(
+        "[📄 Dataset on GitHub](https://github.com/StudiousMind/security-ticket-intent-nlp/blob/main/security_tickets.csv)"
+    )
+    st.markdown(
+        "[💻 App source code](https://github.com/StudiousMind/security-ticket-intent-nlp)"
+    )
+
+    st.write("---")
+    st.write("Built by **Kai (StudiousMind)** for an NLP course project.")
 
 # ---------- Streamlit UI ----------
 
