@@ -1,6 +1,7 @@
 import streamlit as st
 import joblib
 import re
+import pandas as pd
 
 # ---------- Helpers ----------
 
