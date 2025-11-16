@@ -75,5 +75,12 @@ if st.button("Predict"):
 
         if prob_dict is not None:
             st.write("Prediction confidence:")
-            for cls, p in prob_dict.items():
-                st.write(f"- {cls}: {p:.2f}")
+
+            # Create a DataFrame for plotting
+            prob_df = pd.DataFrame({
+                "Category": list(prob_dict.keys()),
+                "Probability": list(prob_dict.values())
+            }).set_index("Category")
+
+            st.bar_chart(prob_df)
+
